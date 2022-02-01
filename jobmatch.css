@@ -1,1 +1,463 @@
+    #SpTitleBar {
+        display: none;
+    }
+    #SpContent_Container {
+        padding: 0 15px 15px;
+    }
+    #SpSubHead {
+        display: none;
+    }
+    #sp-main {
+        width: 100%;
+    }
+    #SpContent_Container {
+        padding: 0;
+    }
+    #sp-main #left {
+        padding-top: 155px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #SpContent_Container .calloutbox {
+        display: none;
+    }
+    .addthis_toolbox {
+        display: none;
+    }
+    #SpContent_Container .calloutbox {
+        display: none;
+    }
+    #sp-main::before {
+        display: none;
+    }
+    #sp-main::after {
+        top: 250px;
+    }
 
+    .topTitleOut {
+        background: url(https://cdn.ymaws.com/intouch.site-ym.com/resource/resmgr/ccg_placement/jobmatch/banner-img1.png) no-repeat scroll center center / cover;
+        background-color: #1D3882;
+        color: #fff;
+        font-weight: bold;
+        margin-bottom: 0px;
+        text-align: center;
+        padding: 115px 0px;
+        text-shadow: 0 0 3px rgba(0, 0, 0, .3);
+        text-transform: uppercase;
+        font-size: 32px;
+        line-height: 1.1em;
+    }
+    .cpTopTitle {
+        color: #000;
+    	text-transform: uppercase;
+    }
+    .offset::before {
+        content: "";
+        display: block;
+        height: 180px;
+        margin-top: -180px;
+        visibility: hidden;
+    }
+    .col-sm-12 {
+        overflow: hidden;
+    }
+    .formbutton:hover {
+        color: #1D3882;
+    }
+    .no-margin {
+        margin: 0 !important;
+    }
+    .sectionIntro {
+        margin-bottom: 10px;
+    }
+    .sectionIntro h3 a {
+        color: #aaa;
+    }
+    #cpNavOut {
+        background-color: #1D3882;
+        color: #fffff;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .cpNav {
+        list-style: none;
+        padding-left: 0;
+        margin-bottom: 0;
+        font-size: 17px;
+      color: #fff;
+    }
+    .cpNav li {
+        display: inline-block;
+      
+    }
+    .cpNav li a {
+        color: white !important;
+        padding: 0 15px;
+    }
+    .cpNav a:visited {
+        color: #fff;
+        padding: 0 15px;
+    }
+    .cpNav li a:hover {
+        color: rgba(0,0,0,0.4);
+    }
+    /* Begin Video Styles */
+    #cpVideoOut {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .videoIframe iframe {
+        min-height: 326px;
+    }
+    /* Begin Testimonial Styles */
+    #cpTestimonialOut2 {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7d54e+0,66d0ce+100 */
+        background: rgb(25,43,96);
+    background: -moz-linear-gradient(0deg, rgba(25,43,96,1) 8%, rgba(68,89,144,1) 49%, rgba(25,43,96,1) 87%);
+    background: -webkit-linear-gradient(0deg, rgba(25,43,96,1) 8%, rgba(68,89,144,1) 49%, rgba(25,43,96,1) 87%);
+    background: linear-gradient(0deg, rgba(25,43,96,1) 8%, rgba(68,89,144,1) 49%, rgba(25,43,96,1) 87%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#192b60",endColorstr="#192b60",GradientType=1);
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #testimonialSlider2 h1 {
+        color: #fff !important;
+        font-size: 25px;
+        font-weight: 600;
+        text-align: center;
+    }
+    #testimonialSlider2 .carousel-inner {
+        margin: 0 auto;
+        width: 85%;
+    }
+    #testimonialSlider2 .item {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        font-style: italic;
+    }
+    #testimonialSlider2 .item p {
+        color: #fff;
+        font-size: 17px;
+        line-height: 23px;
+    }
+    #testimonialSlider2 h3 {
+        color: #fff;
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 21px;
+        margin: 0 0 5px;
+    }
+    #testimonialSlider2 .carousel-control {
+        background-image: none;
+        bottom: 50%;
+        padding: 0 10px;
+        top: auto;
+        width: auto;
+        text-shadow: none;
+    }
+    /* Begin Pricing Styles */
+    #cpPricingOut {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .pricingTable {
+        border: 1px solid #333333;
+        text-align: center;
+        padding: 30px 0;
+    }
+    .priceTitle {
+        color: #1D3882;
+        font-size: 17px;
+        font-weight: 600;
+        line-height: normal;
+        margin: 0 0 30px;
+        text-transform: uppercase;
+    }
+    .priceValue {
+        background-color: #1D3882;
+        padding: 30px 0;
+        position: relative;
+    }
+    .priceValue2 {
+        background-color: #333;
+        padding: 30px 0;
+        margin-bottom: 30px;
+        position: relative;
+    }
+    .priceValue::before {
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-top: 15px solid #ffffff;
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .priceValue2::before {
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-top: 15px solid #1D3882;
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .pricingTable .type {
+        color: #fff;
+        display: block;
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .pricingTable .amount {
+        color: #fff;
+        display: inline-block;
+        font-size: 50px;
+        font-weight: 600;
+        position: relative;
+    }
+    .pricingTable .currency {
+        left: -35px;
+        position: absolute;
+        top: 0px;
+    }
+    .pricingTable .value {
+        font-size: 20px;
+        position: absolute;
+        right: -27px;
+        top: 21px;
+    }
+    .priceBenefits {
+        list-style: none;
+        margin: 0 0 30px;
+        padding: 0;
+    }
+    .priceBenefits li {
+        color: #aaaaaa;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 35px;
+    }
+    /* Begin Agenda Styles */
+    #cpAgendaOut {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        overflow: hidden;
+    }
+    #agendaAccordion {
+        display: inline-block;
+        width: 100%;
+        text-align: left;
+    }
+    #agendaAccordion .panel {
+        background-color: transparent;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+        padding-bottom: 3px;
+    }
+    #agendaAccordion .panel-heading {
+        background-color: #1D3882;
+        border: none;
+        border-radius: 0;
+        color: #fff;
+        padding: 0;
+    }
+    #agendaAccordion .panel-title a {
+        display: inline-block;
+        line-height: 21px;
+        padding: 10px 15px;
+        width: 100%;
+        font-size: 17px;
+        font-weight: 600;
+        color: #fff;
+    }
+    #agendaAccordion .panel-body {
+        border: none;
+    }
+    #agendaAccordion .panel-body h5 {
+        margin: 0 0 10px;
+        text-transform: uppercase;
+    }
+    .agendaLocation {
+        color: #333333;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .agendaTime {
+        color: #999999;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    #agendaAccordion .panel-body p {
+        margin-bottom: 20px;
+    }
+    /* Begin Speaker Styles */
+    .speakerInfo h5 {
+        font-size: 20px;
+        color: #333;
+    }
+    .speakerButton {
+        display: inline-block;
+        margin-top: 10px;
+    }
+    /* Begin Sponsor Styles */
+    #cpSponsorsOut {
+        margin-top: 20px;
+    }
+    .sponsor-item {
+        margin: 15px auto;
+    }
+    /* Begin Speaker Styles */
+    .hotelInfo h5 {
+        font-size: 20px;
+        color: #333;
+    }
+    .hotelButton {
+        display: inline-block;
+        margin-top: 10px;
+    }
+    .clear {
+        clear: both;
+    }
+    
+    /* Resource Section*/
+    
+    #section5 .btn-lg {
+    background-color: #000A4C; 
+    color: white !important;
+    display: block;
+    text-align: center;
+   
+    }
+    
+    #toTopBtn {
+        background-color: #275183;
+        border: none;
+        border-radius: 100px;
+        bottom: 10%;
+        color: white;
+        cursor: pointer;
+        display: none;
+        font-size: 38px;
+        height: 50px;
+        outline: medium none;
+        padding: 0;
+        position: fixed;
+        right: 50px;
+        width: 50px;
+        z-index: 99;
+        opacity: 0.5;
+        -webkit-transition: all 225ms ease-in 0s;
+        -moz-transition: all 225ms ease-in 0s;
+        -o-transition: all 225ms ease-in 0s;
+        transition: all 225ms ease-in 0s;
+    }
+    #toTopBtn:hover {
+        opacity: 1;
+    }
+    #toTopBtn i {
+        line-height: 44px;
+        vertical-align: top;
+        color: #ECEBEB;
+    }
+    
+    @media all and (max-width:959px) {
+    #toTopBtn {
+        right: 20px;
+    }
+    .priceTitle {
+        min-height: 40px;
+    }
+    .topImage-content {
+        bottom: 10%;
+        left: 10%;
+        right: 10%;
+    }
+    .topImage-content h1 {
+        font-size: 28px;
+    }
+    .topImage-content p {
+        font-size: 18px;
+    }
+    }
+    
+    @media all and (max-width:767px) {
+    #sp-main #left {
+        padding-top: 0px;
+    }
+    #toTopBtn {
+        display: none !important;
+    }
+    .cpNav {
+        font-size: 0;
+        margin: 0 auto;
+    }
+    .cpNav li {
+        display: block;
+    }
+    .cpNav li a {
+        background-color: rgba(0,0,0,0.2);
+        display: block;
+        font-size: 14px;
+        margin-bottom: 10px;
+        padding: 5px 15px !important;
+    }
+    .cpNav li:last-child a {
+        margin-bottom: 0;
+    }
+    .cpNav li a:hover {
+        background-color: rgba(0,0,0,0.4);
+        color: #ffffff;
+    }
+    #cpVideoOut, #cpTestimonialOut2, #cpPricingOut, #cpAgendaOut, #cpSpeakersOut, #cpSponsorsOut, #cpHotelOut {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+        text-align: center;
+    }
+    .speakerImg img, .sponsor-item img, .hotelImg img {
+        margin: 0 auto;
+    }
+    .priceOption {
+        margin: 0 auto 20px;
+    }
+    .topImage-content {
+        bottom: 5%;
+        left: 5%;
+        right: 5%;
+        padding: 5px 10px;
+    }
+    .topImage-content h1 {
+        font-size: 22px;
+        margin: 10px auto 5px;
+    }
+    }
+    
+    @media all and (max-width:480px) {
+    #testimonialSlider2 .carousel-control {
+        display: none;
+    }
+    .priceOption {
+        width: 100%;
+        max-width: 320px;
+        float: none;
+    }
+    .priceTitle {
+        min-height: auto;
+    }
+    #topImage {
+        font-size: 30px;
+    }
+    }
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 40%;
+      transform: translate(-50%, -50%);
